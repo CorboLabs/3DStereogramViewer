@@ -1,3 +1,13 @@
 body {
     background-color: #2A2A2A;
 }
+
+.header_item {
+    display: inline;
+    color: darkred;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.header_bar {
+    text-align: end;
+}
