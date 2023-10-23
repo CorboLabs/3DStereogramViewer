@@ -2,6 +2,10 @@
 body {
     background-color: #1A1A1A;
     font-family: "JetBrains Mono", sans-serif;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .header_bar {
@@ -24,6 +28,7 @@ body {
     padding-left: 2.5%;
     align-content: start;
     vertical-align: center;
+    float: left;
 }
 
 .header_item:hover {
@@ -34,13 +39,52 @@ body {
 }
 
 .body_container {
-    display: contents;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    text-align: center;
+}
+
+.upper_spacer {
+    height: 35%;
 }
 
 .full_body {
-    flex: 1 1 auto;
-    border-color: white;
-    border-width: 5px;
+    display: inline-block;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.title_body {
+    font-size: xxx-large;
+    color: #FFF;
+}
+
+.subtitle_body {
+    color: #FFF;
+}
+
+.lower_spacer {
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer_container {
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_img {
+    display: inline;
+    margin: 0 2%;
 }
 
 /* latin */
